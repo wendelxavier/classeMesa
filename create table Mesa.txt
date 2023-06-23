@@ -1,0 +1,7 @@
+create table Mesa
+( 
+ numMesa int(255),
+ capacidadeMax varchar (255) not null,  
+ situacaoMesa varchar (11) not null, 
+ primary key(numMesa) 
+); 
